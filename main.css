@@ -1,0 +1,51 @@
+
+body{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyP3FNl2mlsFisgFd_y3iOxDq_rVxlM6BT29aD8r0aL9gT0WfL8bTux8O5ecX-vzUoPFQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    opacity:1;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+p{
+    font-size: 40px;
+    text-align: left;
+    margin:0 10% 0 40%;
+    color: rgb(253, 191, 255);
+}
+button.gift{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(187, 0, 0);
+    border-radius: 20px;
+    background-image:url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/wrapped-gift_1f381.png');
+    background-size:contain;
+    width:30%;
+
+}
+img.gift{
+    opacity: 0;
+    border-radius: 10px;
+    width: 100%;
+}
+img.gift:active{
+    opacity: 1;
+}
+h1{
+    text-align:center;
+    margin: 0 auto;
+    width: fit-content;
+    font-size:30px;
+    font-family: cursive;
+    background-color: rgb(199, 15, 15);
+}
+span.head{
+    color:rgba(255, 217, 0, 0.904);
+}
+div.gift{
+    margin: 0 0 0 40%;
+}
+div.header{
+    position: sticky;
+    top: 0;
+}
